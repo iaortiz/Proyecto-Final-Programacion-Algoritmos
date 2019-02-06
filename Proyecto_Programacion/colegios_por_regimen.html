@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="c8157e26-0a61-4906-9e6f-b1f972aed302" data-root-id="1942"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2121">
+          {"204ac851-e9f8-4109-8914-0fc9ddd47ef1":{"roots":{"references":[{"attributes":{"callback":null,"factors":["Sierra","Costa"]},"id":"1944","type":"FactorRange"},{"attributes":{},"id":"1970","type":"CategoricalTickFormatter"},{"attributes":{"dimension":1,"plot":{"id":"1942","subtype":"Figure","type":"Plot"},"ticker":{"id":"1957","type":"BasicTicker"}},"id":"1960","type":"Grid"},{"attributes":{"formatter":{"id":"1970","type":"CategoricalTickFormatter"},"plot":{"id":"1942","subtype":"Figure","type":"Plot"},"ticker":{"id":"1953","type":"CategoricalTicker"}},"id":"1952","type":"CategoricalAxis"},{"attributes":{},"id":"1968","type":"BasicTickFormatter"},{"attributes":{},"id":"1948","type":"CategoricalScale"},{"attributes":{"label":{"field":"regimen"},"renderers":[{"id":"1965","type":"GlyphRenderer"}]},"id":"1973","type":"LegendItem"},{"attributes":{},"id":"1957","type":"BasicTicker"},{"attributes":{"below":[{"id":"1952","type":"CategoricalAxis"}],"left":[{"id":"1956","type":"LinearAxis"}],"plot_height":700,"renderers":[{"id":"1952","type":"CategoricalAxis"},{"id":"1955","type":"Grid"},{"id":"1956","type":"LinearAxis"},{"id":"1960","type":"Grid"},{"id":"1972","type":"Legend"},{"id":"1965","type":"GlyphRenderer"}],"title":{"id":"1941","type":"Title"},"toolbar":{"id":"1961","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1944","type":"FactorRange"},"x_scale":{"id":"1948","type":"CategoricalScale"},"y_range":{"id":"1946","type":"Range1d"},"y_scale":{"id":"1950","type":"LinearScale"}},"id":"1942","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1950","type":"LinearScale"},{"attributes":{"plot":null,"text":"N\u00famero de colegios pertenecientes a la regi\u00f3n Costa y Sierra de la provincia de Loja, 2015"},"id":"1941","type":"Title"},{"attributes":{"formatter":{"id":"1968","type":"BasicTickFormatter"},"plot":{"id":"1942","subtype":"Figure","type":"Plot"},"ticker":{"id":"1957","type":"BasicTicker"}},"id":"1956","type":"LinearAxis"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"1942","subtype":"Figure","type":"Plot"},"ticker":{"id":"1953","type":"CategoricalTicker"}},"id":"1955","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto"},"id":"1961","type":"Toolbar"},{"attributes":{},"id":"1953","type":"CategoricalTicker"},{"attributes":{},"id":"2021","type":"UnionRenderers"},{"attributes":{"items":[{"id":"1973","type":"LegendItem"}],"location":"top_center","orientation":"horizontal","plot":{"id":"1942","subtype":"Figure","type":"Plot"}},"id":"1972","type":"Legend"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"field":"color"},"top":{"field":"counts"},"width":{"value":0.5},"x":{"field":"regimen"}},"id":"1963","type":"VBar"},{"attributes":{"callback":null,"data":{"color":["#3288bd","#99d594","#e6f598","#fee08b","#fc8d59","#d53e4f"],"counts":[88,74],"regimen":["Sierra","Costa"]},"selected":{"id":"2022","type":"Selection"},"selection_policy":{"id":"2021","type":"UnionRenderers"}},"id":"1940","type":"ColumnDataSource"},{"attributes":{"source":{"id":"1940","type":"ColumnDataSource"}},"id":"1966","type":"CDSView"},{"attributes":{"data_source":{"id":"1940","type":"ColumnDataSource"},"glyph":{"id":"1963","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1964","type":"VBar"},"selection_glyph":null,"view":{"id":"1966","type":"CDSView"}},"id":"1965","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.5},"x":{"field":"regimen"}},"id":"1964","type":"VBar"},{"attributes":{},"id":"2022","type":"Selection"},{"attributes":{"callback":null,"end":100},"id":"1946","type":"Range1d"}],"root_ids":["1942"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2121').textContent;
+                  var render_items = [{"docid":"204ac851-e9f8-4109-8914-0fc9ddd47ef1","roots":{"1942":"c8157e26-0a61-4906-9e6f-b1f972aed302"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1769b0f3-2b44-462e-97cd-32d86e597058" data-root-id="1427"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1578">
+          {"85a82fb0-dc99-4525-86c3-9596bf241307":{"roots":{"references":[{"attributes":{},"id":"1476","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1438","type":"CategoricalTicker"},{"attributes":{"dimension":1,"plot":{"id":"1427","subtype":"Figure","type":"Plot"},"ticker":{"id":"1442","type":"BasicTicker"}},"id":"1445","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.4},"x":{"field":"x"}},"id":"1449","type":"VBar"},{"attributes":{},"id":"1474","type":"BasicTickFormatter"},{"attributes":{"callback":null,"data":{"fill_color":["#000003","#221150","#5D177E","#972C7F","#D1426E","#F8755C","#FEB97F","#FBFCBF"],"line_color":["#000003","#221150","#5D177E","#972C7F","#D1426E","#F8755C","#FEB97F","#FBFCBF"],"top":[44483,8182,8204,8260,1028,1033,184,250],"x":["Matutina","Matutina,Nocturno","Matutina,Vespertina","Matutina,Vespertina,Nocturno","Matutino,Nocturno","Nocturno","Vespertina","Vespertina,Nocturno"]},"selected":{"id":"1479","type":"Selection"},"selection_policy":{"id":"1478","type":"UnionRenderers"}},"id":"1447","type":"ColumnDataSource"},{"attributes":{"source":{"id":"1447","type":"ColumnDataSource"}},"id":"1451","type":"CDSView"},{"attributes":{},"id":"1478","type":"UnionRenderers"},{"attributes":{},"id":"1435","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto"},"id":"1446","type":"Toolbar"},{"attributes":{"callback":null,"start":0},"id":"1431","type":"DataRange1d"},{"attributes":{},"id":"1479","type":"Selection"},{"attributes":{"below":[{"id":"1437","type":"CategoricalAxis"}],"left":[{"id":"1441","type":"LinearAxis"}],"plot_height":500,"plot_width":700,"renderers":[{"id":"1437","type":"CategoricalAxis"},{"id":"1440","type":"Grid"},{"id":"1441","type":"LinearAxis"},{"id":"1445","type":"Grid"},{"id":"1450","type":"GlyphRenderer"}],"title":{"id":"1426","type":"Title"},"toolbar":{"id":"1446","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1429","type":"FactorRange"},"x_scale":{"id":"1433","type":"CategoricalScale"},"y_range":{"id":"1431","type":"DataRange1d"},"y_scale":{"id":"1435","type":"LinearScale"}},"id":"1427","subtype":"Figure","type":"Plot"},{"attributes":{"formatter":{"id":"1474","type":"BasicTickFormatter"},"plot":{"id":"1427","subtype":"Figure","type":"Plot"},"ticker":{"id":"1442","type":"BasicTicker"}},"id":"1441","type":"LinearAxis"},{"attributes":{},"id":"1433","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"1476","type":"CategoricalTickFormatter"},"major_label_orientation":1.5707963267948966,"plot":{"id":"1427","subtype":"Figure","type":"Plot"},"ticker":{"id":"1438","type":"CategoricalTicker"}},"id":"1437","type":"CategoricalAxis"},{"attributes":{"callback":null,"factors":["Matutina","Matutina,Nocturno","Matutina,Vespertina","Matutina,Vespertina,Nocturno","Matutino,Nocturno","Nocturno","Vespertina","Vespertina,Nocturno"]},"id":"1429","type":"FactorRange"},{"attributes":{},"id":"1442","type":"BasicTicker"},{"attributes":{"data_source":{"id":"1447","type":"ColumnDataSource"},"glyph":{"id":"1448","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1449","type":"VBar"},"selection_glyph":null,"view":{"id":"1451","type":"CDSView"}},"id":"1450","type":"GlyphRenderer"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"1427","subtype":"Figure","type":"Plot"},"ticker":{"id":"1438","type":"CategoricalTicker"}},"id":"1440","type":"Grid"},{"attributes":{"fill_color":{"field":"fill_color"},"line_color":{"field":"line_color"},"top":{"field":"top"},"width":{"value":0.4},"x":{"field":"x"}},"id":"1448","type":"VBar"},{"attributes":{"plot":null,"text":"Numero de alumnos que asisten seg\u00fan su jornada en la provincia de Loja, 2015"},"id":"1426","type":"Title"}],"root_ids":["1427"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1578').textContent;
+                  var render_items = [{"docid":"85a82fb0-dc99-4525-86c3-9596bf241307","roots":{"1427":"1769b0f3-2b44-462e-97cd-32d86e597058"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

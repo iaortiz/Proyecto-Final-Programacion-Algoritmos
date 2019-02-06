@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="28302328-b2af-4dbf-8bfe-ffcb6e4fc956" data-root-id="1128"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1265">
+          {"5fc3e137-a44a-4908-89f0-0ba8b35493cc":{"roots":{"references":[{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.4},"x":{"field":"x"}},"id":"1150","type":"VBar"},{"attributes":{"plot":null,"text":"Numero de docentes de sexo masculino que laboran seg\u00fan la jornada laboral en la provincia de Loja, 2015"},"id":"1127","type":"Title"},{"attributes":{"callback":null,"factors":["Matutina","Matutina,Nocturno","Matutina,Vespertina","Matutina,Vespertina,Nocturno","Matutino,Nocturno","Nocturno","Vespertina","Vespertina,Nocturno"]},"id":"1130","type":"FactorRange"},{"attributes":{"dimension":1,"plot":{"id":"1128","subtype":"Figure","type":"Plot"},"ticker":{"id":"1143","type":"BasicTicker"}},"id":"1146","type":"Grid"},{"attributes":{"formatter":{"id":"1163","type":"CategoricalTickFormatter"},"major_label_orientation":1.5707963267948966,"plot":{"id":"1128","subtype":"Figure","type":"Plot"},"ticker":{"id":"1139","type":"CategoricalTicker"}},"id":"1138","type":"CategoricalAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto"},"id":"1147","type":"Toolbar"},{"attributes":{"below":[{"id":"1138","type":"CategoricalAxis"}],"left":[{"id":"1142","type":"LinearAxis"}],"plot_height":500,"plot_width":700,"renderers":[{"id":"1138","type":"CategoricalAxis"},{"id":"1141","type":"Grid"},{"id":"1142","type":"LinearAxis"},{"id":"1146","type":"Grid"},{"id":"1151","type":"GlyphRenderer"}],"title":{"id":"1127","type":"Title"},"toolbar":{"id":"1147","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1130","type":"FactorRange"},"x_scale":{"id":"1134","type":"CategoricalScale"},"y_range":{"id":"1132","type":"DataRange1d"},"y_scale":{"id":"1136","type":"LinearScale"}},"id":"1128","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1134","type":"CategoricalScale"},{"attributes":{"data_source":{"id":"1148","type":"ColumnDataSource"},"glyph":{"id":"1149","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1150","type":"VBar"},"selection_glyph":null,"view":{"id":"1152","type":"CDSView"}},"id":"1151","type":"GlyphRenderer"},{"attributes":{"fill_color":{"field":"fill_color"},"line_color":{"field":"line_color"},"top":{"field":"top"},"width":{"value":0.4},"x":{"field":"x"}},"id":"1149","type":"VBar"},{"attributes":{},"id":"1139","type":"CategoricalTicker"},{"attributes":{},"id":"1161","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"1148","type":"ColumnDataSource"}},"id":"1152","type":"CDSView"},{"attributes":{},"id":"1163","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1143","type":"BasicTicker"},{"attributes":{},"id":"1166","type":"Selection"},{"attributes":{},"id":"1136","type":"LinearScale"},{"attributes":{"formatter":{"id":"1161","type":"BasicTickFormatter"},"plot":{"id":"1128","subtype":"Figure","type":"Plot"},"ticker":{"id":"1143","type":"BasicTicker"}},"id":"1142","type":"LinearAxis"},{"attributes":{"callback":null,"start":0},"id":"1132","type":"DataRange1d"},{"attributes":{"callback":null,"data":{"fill_color":["#440154","#46317E","#365A8C","#277E8E","#1EA087","#49C16D","#9DD93A","#FDE724"],"line_color":["#440154","#46317E","#365A8C","#277E8E","#1EA087","#49C16D","#9DD93A","#FDE724"],"top":[1122,197,159,200,23,36,3,4],"x":["Matutina","Matutina,Nocturno","Matutina,Vespertina","Matutina,Vespertina,Nocturno","Matutino,Nocturno","Nocturno","Vespertina","Vespertina,Nocturno"]},"selected":{"id":"1166","type":"Selection"},"selection_policy":{"id":"1165","type":"UnionRenderers"}},"id":"1148","type":"ColumnDataSource"},{"attributes":{},"id":"1165","type":"UnionRenderers"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"1128","subtype":"Figure","type":"Plot"},"ticker":{"id":"1139","type":"CategoricalTicker"}},"id":"1141","type":"Grid"}],"root_ids":["1128"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1265').textContent;
+                  var render_items = [{"docid":"5fc3e137-a44a-4908-89f0-0ba8b35493cc","roots":{"1128":"28302328-b2af-4dbf-8bfe-ffcb6e4fc956"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
